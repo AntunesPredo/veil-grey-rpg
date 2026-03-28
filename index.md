@@ -1,12 +1,15 @@
 <style>
-  body {
+  html, body, .markdown-body {
     background-color: #0d0d0d !important;
     color: #d4d4d4 !important;
     font-family: 'Courier New', Courier, monospace !important;
     margin: 0 auto !important;
     max-width: 800px !important;
-    padding: 40px 20px !important;
-    line-height: 1.6;
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+  img {
+    background: transparent !important;
   }
   h1, h2, h3 {
     color: #ffffff;
